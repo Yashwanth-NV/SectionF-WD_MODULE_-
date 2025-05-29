@@ -1,0 +1,47 @@
+Body{
+    background-image: url("https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?uid=R196275518&ga=GA1.1.1680118688.1746639654&semt=ais_hybrid&w=740");
+    background-repeat: no-repeat;
+    animation: scrollanimate 10s linear infinite;
+    background-size: cover;
+}
+@keyframes scrollanimate{
+
+30%{
+  background-image: url("https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=");  
+}
+60%{
+  background-image: url("https://media.istockphoto.com/id/1442179368/photo/maldives-island.jpg?s=612x612&w=0&k=20&c=t38FJQ6YhyyZGN91A8tpn3nz9Aqcy_aXolImsOXOZ34=");  
+}
+90%
+{
+    background-image: url("https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?uid=R196275518&ga=GA1.1.1680118688.1746639654&semt=ais_hybrid&w=740");
+}
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 180ms;
+    animation-delay: 30ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+    animation-name: Animationball;
+
+}
+@keyframes Animationball
+{
+    from
+    {
+        top: 100px;
+        background-color:blue;
+    }
+    to
+    {
+        top: 200px;
+        background-color:green;
+    };
+    
+}
